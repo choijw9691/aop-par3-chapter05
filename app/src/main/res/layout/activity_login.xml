@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="24dp"
+
+    tools:context=".LoginActivity">
 
     <EditText
         android:id="@+id/emailEditText"
@@ -43,7 +46,7 @@
         app:layout_constraintEnd_toStartOf="@id/loginButton"/>
 
 
-<!--
+
     <com.facebook.login.widget.LoginButton
         android:id="@+id/facebookLoginButton"
         android:layout_marginEnd="4dp"
@@ -53,6 +56,6 @@
         app:layout_constraintTop_toBottomOf="@id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
--->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
